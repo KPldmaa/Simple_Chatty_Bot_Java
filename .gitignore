@@ -1,0 +1,57 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+/.jpb/jpb-settings.xml
+/src/main/generated/
+
+
+### JetBrains Academy ###
+
+### kursusega seotud versioniseerimiseks mittevajalikud failid ###
+/course-info.yaml
+/course-remote-info.yaml
+
+### Neid siin all peaksid veidi mudima ###
+/Simple Chatty Bot (Java)/*            # (*) abil - vali kõik (include), mis on kausta all
+!/Simple Chatty Bot (Java)/task/       # (!) abil - ära vali kaust (exclude)
+/Simple Chatty Bot (Java)/task/test/   # vali kaust (include)
+/Simple Chatty Bot (Java)/Print your name/
+/Simple Chatty Bot (Java)/Multiple choice/
+/Simple Chatty Bot (Java)/Learning numbers/
+/Simple Chatty Bot (Java)/Guess the age/
+/Simple Chatty Bot (Java)/Chatty Bot welcomes you/
+/Topics/
